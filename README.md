@@ -68,3 +68,38 @@ audiocap_id,캡션
 
 - 기존 csv 에서 현재 작성한 행까지 이어서 만들게 되어 있기 때문에 반드시 팀원에게 물어보고, 프로젝트를 pull 한다.
 - 작성이 다 끝나면 번역이 잘 되었는지 확인하고 팀원에게 반드시 알린 다음에 `commit` & `push`를 진행한다. (slack 등 협업 프로그램에 알림 연동안해놓음)
+
+## 추가 개선사항
+
+- API가 하루 10,000개 밖에 번역을 하지 못해서, 요금 추가를 고려할 것.
+- 리팩토링 후 파파고 API 이외의 API 추가는 비효율적이라고 판단, 다른 레포지토리 생성 후 만드는 것을 고려해 볼 예정.
+
+## 요금 테이블
+<div style="text-align: center; display: flex; justify-content: center">
+    <table>
+    <thead style="background-color: gray; font-style: italic">
+        <tr>
+            <td>종류</td>
+            <td>요금</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>PAPAGO API</td>
+            <td>하루 10,000자 무료</td>
+        </tr>
+        <tr>
+            <td>Google Translate API</td>
+            <td>첫 500,000자 까지 무료</td>
+        </tr>
+        <tr>
+            <td>OPEN AI API</td>
+            <td>1000토큰당 약 2.2원</td>
+        </tr>
+        <tr>
+            <td>카카오 API</td>
+            <td>고려하지 않음.</td>
+        </tr>
+    </tbody>
+    </table>
+</div>
