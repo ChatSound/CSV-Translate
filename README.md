@@ -17,13 +17,23 @@ private static final String CLIENT_ID = System.getenv("CLIENT_ID");
 private static final String CLIENT_SECRET = System.getenv("CLIENT_SECRET");
 ```
 
+
+
+1. 우측 상단 `Current File` - `Edit Configurations...` 순서대로 클릭
 <div>
 <img src="https://user-images.githubusercontent.com/97272787/229340487-4a5ec9ee-21fc-468f-8220-814e61430fa7.png">
 </div>
-
-1. 우측 상단 `Current File` - `Edit Configurations...` 순서대로 클릭
-2. `Environment variables` 우측의 문서 모양 클릭 
+<br/>
+2. `Environment variables` 우측의 문서 모양 클릭
+<div>
+<img src="https://user-images.githubusercontent.com/97272787/229341163-1f42403c-94ee-4f13-90ed-5caad914bb34.png">
+</div>
+<br/>
 3. `Environment variables` 창에서 `+`를 클릭하고 본인의 Papago API ID와 SECRET을 입력하면 된다.
+<div>
+<img src="https://user-images.githubusercontent.com/97272787/229341158-96aff76a-c1f1-47c6-a3b5-03a13989d707.png">
+</div>
+<br/>
 
 
 ## 실행결과
